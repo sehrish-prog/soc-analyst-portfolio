@@ -35,3 +35,5 @@ The .example domains are fictional placeholders.
 ## Learning
 Recognizing social engineering indicators and documenting
 findings while clearly stating investigation limitations.
+## Guided Exercises
+- [Phishing Email Analysis](projects/phishing-email-analysis/README.md) — AI-assisted review of a fictional email, including suspicious indicators, assessment, and recommended response.
