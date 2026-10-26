@@ -1,22 +1,37 @@
-# Phishing Email Analysis
+# Phishing Email Analysis — Guided Exercise
 
-**Status:** Planned
+## Scope
+AI-assisted analysis of a fictional training email.
+This is a text-only exercise, not a real incident.
 
-## Objective
-Investigate a sample email and identify possible phishing indicators.
-
-## Investigation Checklist
-- Check the sender and reply-to addresses.
-- Identify urgent or suspicious requests.
-- Inspect link destinations without opening them.
-- Review email headers and authentication results.
-- Identify attachments without running them.
+## Evidence Reviewed
+- Sender: helpdesk@company-security.example
+- Reply-To: verify@external-mail.example
+- Subject: URGENT: Your account will close in 30 minutes
+- Message: Your mailbox access will be suspended.
+  Verify your password immediately using this link:
+  hxxps://account-check.example/login
 
 ## Findings
-Pending analysis.
+1. The suspension threat creates fear.
+2. The deadline pressures the recipient to act quickly.
+3. The password verification request suggests credential theft.
+4. Different sender, Reply-To, and link domains warrant further investigation.
 
-## Verdict
-Pending investigation.
+## Assessment
+Suspected credential phishing based on the combined indicators.
+Domain differences alone do not prove phishing.
 
-## Evidence
-Screenshots and notes will be added after completing the lab.
+## Recommended Response
+- Do not submit credentials through the email link.
+- Verify the request through a known IT support channel.
+- Report the email to the security team.
+
+## Limitations
+No original headers or authentication results were available.
+No website inspection or security tools were used.
+The .example domains are fictional placeholders.
+
+## Learning
+Recognizing social engineering indicators and documenting
+findings while clearly stating investigation limitations.
